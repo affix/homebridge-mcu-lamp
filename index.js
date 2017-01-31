@@ -33,9 +33,8 @@ McuLampAccessory.prototype.getState = function(callback) {
 
 McuLampAccessory.prototype.setState = function(state, callback) {
   var url = state ? "1": "0";
-  this.log("Setting State to " + url);
   request.get({
-      url: 'http://'+ this.mcuIP + '/led?state=' + url
+      url: 'http://'+ this.mcuIP + '/relay?state=' + url
   }, function(err, response, body) {
       callback(null, state);
   }.bind(this));
