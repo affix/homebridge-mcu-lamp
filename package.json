@@ -1,0 +1,20 @@
+{
+  "name": "homebridge-mcu-lamp",
+  "version": "0.0.2",
+  "description": "Control a NodeMCU WebServer Lamp : https://github.com/nfarina/homebridge",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/affix/homebridge-mcu-lamp.git"
+  },
+  "bugs": {
+    "url": "http://github.com/affix/homebridge-mcu-lamp/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+}
