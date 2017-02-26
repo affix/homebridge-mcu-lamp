@@ -9,7 +9,7 @@ ESP8266WebServer server(80);
 
 // Global Variables
 const int relay = 2; // Pin D4 on my NodeMCU
-int curstate = 1;
+int curstate = 0;
 
 /*
 *  Handle Relay State Change
@@ -52,7 +52,7 @@ void setup(void) {
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP());
   // And as regular external functions:
-  server.on("/state", handle_state);
+  server.on("/status", handle_state);
   server.on("/relay", handle_relay);
 
   // Start the server
