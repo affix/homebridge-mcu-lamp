@@ -8,11 +8,18 @@ Example config.json:
    {
        "accessory": "McuLamp",
        "name": "Node Lamp",
-       "ip" : "192.168.0.29"
+       "ip" : "192.168.0.29",
+       "manufacturer" : "Your manufacturer",
+       "model" : "Your model",
+       "serialnumber" : "Your serial number",
+       "firmwarerevision" : "Your firmware revision"
    }
  ],
 
 ```
+
+> manufacturer, model, serialnumber, firmwarerevision are optional
+
 
 This Plugin lets you control a Relay attached to a pin on an ESP8266 Device, For example I use a NodeMCU with an ESP-12E
 
