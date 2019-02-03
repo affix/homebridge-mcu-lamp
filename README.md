@@ -1,6 +1,8 @@
 
 # "McuLamp" Plugin
 
+[![npm version](https://badge.fury.io/js/homebridge-mcu-lamp.svg)](https://badge.fury.io/js/homebridge-mcu-lamp)
+
 Example config.json:
 
  ```
